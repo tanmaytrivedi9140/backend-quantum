@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 app.use('/v2' , router)
 // port no for server -----------------------------
-app.listen(port, () => {
+app.listen(10000, () => {
   console.log("listening in port 5000");
 });
 // 656e3c104768eacc6e682d36
