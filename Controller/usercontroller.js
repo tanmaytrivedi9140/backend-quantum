@@ -7,7 +7,7 @@ const { transporter } = require("./functions/otpfunction");
 const otpschema = require("../Models/OtpSchema");
 const userschema = require("../Models/UserSchema");
 const { z } = require("zod");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 let userData;
 let prevotp;
